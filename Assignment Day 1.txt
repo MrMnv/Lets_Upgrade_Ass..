@@ -1,0 +1,114 @@
+1.What is Python? What are ways to install Python in PC ?
+Ans.:
+  
+    Python : Python is an interpreted, object-oriented, high-level programming language with dynamic semantics.
+    
+    Ways to Install Python on PC :
+      
+=======================================================>      Way 1 : Through Python Official Website      <=====================================================================
+        
+          Step 1 : Goto 
+                  https://www.python.org/downloads/
+                  
+          Step 2 : Click the whichever OS supported version which you use. I'm using Windows(two lines below the Download Python 3.8.4 button[as on 20-07-2020]).
+           
+          Step 3 : Click on the Download Windows x86-64 executable installer link under the top-left Stable Releases.
+              
+                The following pop-up window titled Opening python-3.74-amd64.exe will appear.
+                
+                Download that File
+                
+                The file named python-3.7.4-amd64.exe should start downloading into your standard download folder. This file is about 30 Mb so it might take a while to download                      fully if you are on a slow internet connection (it took me about 10 seconds over a cable modem).
+           
+          Step 4 : Move this file to a more permanent location, so that you can install Python (and reinstall it easily later, if necessary).
+          
+          Step 5 : Double-click the icon labeling the file python-3.7.4-amd64.exe[As shown in Windows].
+                
+                A Python 3.7.4 (64-bit) Setup pop-up window will appear.
+                
+                Ensure that the Install launcher for all users (recommended) and the Add Python 3.7 to PATH checkboxes at the bottom are checked.
+                
+                If the Python Installer finds an earlier version of Python installed on your computer, the Install Now message may instead appear as Upgrade Now (and the                           checkboxes will not appear).
+          
+          Step 6 : Highlight the Install Now (or Upgrade Now) message, and then click it.
+          
+                When run, a User Account Control pop-up window may appear on your screen. I could not capture its image, but it asks, Do you want to allow this app to make                         changes to your device.
+                
+          Step 7 : Click the Yes button.
+            
+                A new Python 3.7.4 (64-bit) Setup pop-up window will appear with a Setup Progress message and a progress bar.
+                
+                During installation, it will show the various components it is installing and move the progress bar towards completion. Soon, a new Python 3.7.4 (64-bit) Setup                     pop-up window will appear with a Setup was successfuly message.
+                
+          Step 8 : Click the Close button.
+          
+          Python should now be installed.
+
+
+========================================================>       Way 2 : Using Anaconda Distribution       <======================================================================
+
+          NOTE : Way 1 is not to be done if you chosing way 2.
+
+          Step 1 : Goto 
+                  https://www.anaconda.com/products/individual
+                  
+          Step 2 : Select your suppoeted OS download file I'm on Windows. I'll select Windows.
+          
+          Step 3 : Download the .exe installer.
+          
+                Please select 64-Bit Graphical Installer (466 MB) [as on 20-07-2020] 
+          
+          Step 4 :  Once downloaded open and run the .exe installer
+          
+                At the beginning of the install, you need to click Next to confirm the installation.
+                
+                Then agree to the license.
+                
+                At the Advanced Installation Options screen, I recommend that you do not check "Add Anaconda to my PATH environment variable"
+                
+          Step 5 : Open the Anaconda Prompt from the Windows start menu
+          
+                After the installation of Anaconda is complete, you can go to the Windows start menu and select the Anaconda Navigator.
+          
+          Step 6 : As it opens you will see many python code editors like Jupiter Notebook, VS Code, Spyder and many more.
+          
+          Step 7 : Select anyone and start Coding for becoming Python PRO.
+          
+         
+====================================================>       For Verifying that you installed Python Completely     <=============================================================
+
+          Step 1 : Open Command Prompt.
+            
+          Step 2 : Write "python"
+          
+          Step 3 : If it shows python version you installed.
+          
+           ******** You are Done installing Python Successfully...
+
+  
+2.What are Code Environments ? Types ?
+Ans.:
+
+      Code Environments :
+        A Code environments are a standalone and self-contained environments where you write code, edit code and generate output.
+        
+      Types of Code Environments :
+        
+          i. Text Editors :
+              
+              General Editors like Notepad, Atom, VS Code and many more...
+              Works with variety of file types
+              Plugins can be added
+              
+          ii. IDEs [Integreated Development Environments] :
+          
+              Specifically prepared for specific language
+              Many Functionalities are seen
+              For Python there is PyCharm and Spider
+                
+          iii. Notebooks
+              
+              Inputs and Outputs are seen at line after
+              Supports putting heading , notes in between of Codes
+              Special file formates but not .py
+              There is Jupiter Notebook, EditPlus and many more
